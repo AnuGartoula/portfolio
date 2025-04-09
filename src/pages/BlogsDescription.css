@@ -1,0 +1,28 @@
+.details_container{
+  padding: 50px;
+justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.first_container h1{
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  
+}
+
+.second_container{
+  size: 100px;
+  padding: 40px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgba(23, 46, 102, 0.568);
+  border-radius: 40px;
+}
+
+.second_container p{
+  color: rgb(5, 0, 0);
+  
+}

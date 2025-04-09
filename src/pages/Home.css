@@ -1,0 +1,42 @@
+.container {
+  .container {
+    display: flex;
+    flex-direction: column;  /* Aligns content in a vertical stack */
+    align-items: center;     /* Centers content horizontally */
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: center; /* Centers items horizontally within the main container */
+    align-items: center;     /* Centers items vertically within the main container */
+  }
+  
+  .content {
+    font-size: 20px;
+    font-weight: 600;
+    
+    line-height: 30px;
+    display: flex;
+    align-items: center;     /* Aligns the text and image vertically */
+  }
+  
+  .container p {
+
+    font-size: 18px;
+    font-weight: 700;
+    padding: 30px;
+    margin-right: 20px;  /* Adds space between the text and the image */
+  }
+  
+  .container img {
+    max-width: 40%;      /* Ensures image doesn't overflow */
+    max-height: 50%;     /* Keeps aspect ratio */
+  }
+  
+  .theme-options {
+    margin-top: 30px; 
+    margin-right: 12rem;    /* Adds space between the main content and theme options */
+    display: flex;
+    justify-content: flex-end;  /* Centers the theme options horizontally */
+  }
+}  

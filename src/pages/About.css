@@ -1,0 +1,34 @@
+.about_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .image img {
+    width: 200px; /* You can adjust this value to make the image bigger or smaller */
+    height: auto;
+    border-radius: 10px; /* Optional: add rounded corners to the image */
+    margin-bottom: 20px;
+  }
+  
+  .about_title h1 {
+    font-weight: 700;
+    font-size: 26px; /* Smaller font size for the title */
+    color: #333; /* You can change this color */
+    margin-bottom: 10px;
+  }
+  
+  .about_details p {
+font-weight: 600;
+    font-size: 18px; /* Smaller font size for the text */
+    line-height: 1.6;
+    color: #555; /* You can change this color */
+    max-width: 600px; /* Restrict text width for readability */
+  }
+  
+  .about_details p{
+    color: var(--about_details-text-color);
+  }

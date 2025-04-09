@@ -11,3 +11,124 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary-background-color: #fff;
+  --secondary-background-color: #f7f7f7;
+  
+  --logo-text-color: #000000;
+
+  --about_details-text-color: #000000;
+
+  --primary-text-color: #000;
+  --secondary-text-color: #4b4c53;
+
+  --primary-border-color: #4b4c53;
+
+  --button-solid-background-color: #000;
+  --button-solid-text-color: #fff;
+
+  --button-outlined-background-color: transparent;
+  --button-outlined-text-color: #000;
+}
+
+[data-theme='dark']{
+  --primary-background-color: #777777;
+  --secondary-background-color: #4d4c4c;
+
+  --logo-text-color: #e7e5e5 ;
+
+  --about_details-text-color: #f2f2f6;
+
+
+  --primary-text-color: #e7e5e5;
+  --secondary-text-color: #f2f2f6;
+
+  --primary-border-color: #ffffff;
+
+  --button-solid-background-color: #f3eeee;
+  --button-solid-text-color: #fff;
+
+  --button-outlined-background-color: transparent;
+  --button-outlined-text-color: #f5eded;
+}
+
+[data-theme='purple'] {
+  --primary-background-color: 	#5a4f65;
+  --secondary-background-color: #d9c6e6;
+  
+  --logo-text-color: #e7e5e5 ;
+
+  --about_details-text-color: #f2f2f6;
+
+  --primary-text-color: #e7e5e5;
+  --secondary-text-color: #f2f2f6;
+
+  --primary-border-color: #9f2e9d;
+
+  --button-solid-background-color: #772594;
+  --button-solid-text-color: #fff;
+
+  --button-outlined-background-color: transparent;
+  --button-outlined-text-color: #772594;
+}
+[data-theme='green'] {
+  --primary-background-color: 	 	
+  #a6b786;
+  --secondary-background-color: #d3e6c6;
+
+
+  --logo-text-color: #e7e5e5 ;
+
+  --about_details-text-color: #f2f2f6;
+
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #ffffff;
+
+  --primary-border-color: #599f2e;
+
+  --button-solid-background-color: #74ba46;
+  --button-solid-text-color: #fff;
+
+  --button-outlined-background-color: transparent;
+  --button-outlined-text-color: #ffffff;
+}
+
+
+
+.theme-options{
+  display: flex;
+  gap: 10px;
+}
+.theme-option{
+  height: 25px;
+  width: 25px;
+  border: 1px solid;
+  border-radius:50% ;
+  cursor: pointer;
+}
+
+#theme-light{
+  background-color: #fff;
+  border-color:#000;
+}
+
+#theme-dark{
+  background-color: #343333;
+  border-color:#fff;
+}
+#theme-purple{
+  background-color: #720c7b;
+  border-color:#9f2e9d;
+}
+#theme-green{
+  background-color: #2b9425a5;
+  border-color:#379f2e;
+}
+
+#app {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  min-height: 100vh;
+  transition: background-color 1s ease, border-color 1s ease;
+}
