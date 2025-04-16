@@ -1,0 +1,30 @@
+/* SkillIcon.css */
+.skill-icon {
+  width: 120px;
+  height: 120px;
+  background-color: #97abbf;
+  clip-path: polygon(
+    25% 5%, 75% 5%, 100% 50%, 
+    75% 95%, 25% 95%, 0% 50%
+  ); /* this creates a hexagon shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 0 transparent;
+  cursor: pointer;
+}
+
+.skill-icon img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.skill-icon:hover {
+  background-color: #a29eb291;
+  box-shadow: 0 0 15px 5px rgba(138, 92, 255, 0.6);
+  transform: scale(1.05);
+}
+
